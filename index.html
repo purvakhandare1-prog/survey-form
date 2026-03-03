@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<head>
+<title>Survey form</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+  <h1 id="title">Survey-Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+  <form id="survey-form">
+    <fieldset>
+    <label id="name-label">enter your name: <input id="name" type="text" id="name" placeholder="john doe" required /></label>
+
+     <label id="email-label">enter your email:<input id="email" type="email" placeholder="abc@gmail.com" required/>
+
+     <label id="number-label">enter your number:<input id="number" type="number" min="10" max="99" placeholder="66" /></label>
+     </fieldset>
+     <fieldset>
+    which domains are you intresrted in?<br>
+<select id="dropdown" name="domains">
+  <option value="select the option">select the option</option>
+  <option value="data science" >data science</option>
+  <option value="CSE" >CSE</option>
+  <option value="AIML" >AIML</option>
+  <option value="mechanical" >mechanical</option>
+  <option value="information technology" >information technology</option></select></fieldset>
+  <fieldset>
+  <legend>Course Preference</legend> 
+  
+  <input type="radio" id="yes" name="course_need" value="yes">
+  <label for="yes" ">Yes</label>
+  <input type="radio" id="no" name="course_need" value="no">
+  <label for="no" ">No</label>
+</fieldset>
+<fieldset><legend>what sources you will like to learn</legend>
+  <input type="checkbox" id="backend developer"
+  value="backend developer"/>
+  <label for="backend developer">backend-developer</label>
+  <br>
+   <input type="checkbox" id="frontend developer"
+  value="frontened developer"/>
+  <label for="frontened developer">frontened-developer</label>
+  <br>
+     <input type="checkbox" id="full stack"
+  value="full stack"/>
+  <label for="full stack">full stack</label><br>
+     <input type="checkbox" id="api skills"
+  value="api skills"/>
+  <label for="api skills">api skills</label>
+</fieldset>
+<fieldset><legend>Any additional course will be aranged as per needs</legend>
+<textarea placeholder="write suggestions"></textarea></fieldset>
+<input type="submit" id="submit">
+  
+    
+  </form>
+  </body>
+  </html>-

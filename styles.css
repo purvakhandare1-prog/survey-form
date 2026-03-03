@@ -1,0 +1,28 @@
+body {
+  background-image:url("https://c8.alamy.com/comp/2A1PX6N/survey-form-on-clipboard-with-hands-illustration-customer-feedback-list-with-checklist-on-board-with-paper-clip-flat-man-hands-holding-pen-and-clipboard-with-survey-list-on-violet-background-2A1PX6N.jpg");
+
+  
+}
+label{
+  display:block;
+  margin:0.6rem 0;
+}
+fieldset {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;    
+}
+input[type="radio"] + label {
+    display: inline;       
+    margin-right: 20px;  
+    cursor: pointer;
+   
+}
+input[type="checkbox"]+label{
+  display:inline;
+}
+textarea{
+  display:inine-block;
+  width:20rem;
+}
